@@ -2,7 +2,7 @@
 \numberwithin{equation}{enumi}
 
 \item
-What are Constant M and N circles and how can we determine closed loop frequency response using M and N circles?
+What are Constant M and N circles and how can we determine closed loop frequency response using M and N circles? \\
 \solution 
 M circles are called constant magnitude Loci and N circles are called as
 constant phase angle Loci.These are helpful in determining the closed-loop frequency response of unity negative feedback systems. \\
@@ -76,26 +76,28 @@ For unity Feedback system given below,obtain closed loop frequency response usin
 \begin{align}
 G\brak{s} &=\frac{50\brak{s+3}}{s\brak{s+2}\brak{s+4}}
 \end{align}
-\solution
-The following code plots Fig. \ref{fig:ee18btech11017}
+\solution 
+The following code plots Fig. \ref{fig:ee18btech11017_fig1}
 \begin{lstlisting}
-codes/ee18btech11017_1.py
+codes/ee18btech11017_code1.py
 \end{lstlisting}
 
 
 \begin{figure}[!h]
   \includegraphics[width=\columnwidth]{./figs/ee18btech11017_fig1.eps}
  \caption{}
-  \label{fig:ee18btech11017}
+  \label{fig:ee18btech11017_fig1}
 \end{figure}
 
 \item
-The following code finds the intersection of M and N circles with Nyquist plot at different frequencies in Table \ref{table:ee18btech11017_table1}
+Find the intersection of M and N circles with Nyquist plot at different frequencies. \\
+\solution 
+The following code finds intersection of M and N circles with Nyquist plot at different frequencies
 \begin{lstlisting}
-codes/ee18btech11017_2.py
+codes/ee18btech11017_code2.py
 \end{lstlisting}
 
-
+The points M and frequencies are listed in Table  \ref{table:ee18btech11017_table1}
 \begin{table}[!ht]
 \centering
 \input{./tables/ee18btech11017_table1.tex}
@@ -104,25 +106,47 @@ codes/ee18btech11017_2.py
 \end{table}
 
 
+The points M and frequencies are listed in Table\ref{table:ee18btech11017_table2}
+\begin{table}[!ht]
+\centering
+\input{./tables/ee18btech11017_table2.tex}
+\caption{}
+\label{table:ee18btech11017_table2}
+\end{table}
+
+The constant N locus for given value of $\alpha$ is not the entire circle but only an arc.This is beacuse tangent of angle remains same if $+180\degree$ or 
+$-180\degree$ is added to the angle.
+
+
+
 \item
-The following code plots figure(\ref{fig:ee18btech11017_5}), the magnitude plot from the values obtained above in the Table \ref{table:ee18btech11017_table1} along with the original bode plot of the closed loop transfer function.
+Plot Magnitude and Phase plot from the values obtained above.\\
+\solution
+The following code plots Fig. \ref{fig:ee18btech11017_fig2}
 \begin{lstlisting}
-codes/ee18btech11017_3.py
+codes/ee18btech11017_code3.py
 \end{lstlisting}
 
 \begin{figure}[!h]
   \includegraphics[width=\columnwidth]{./figs/ee18btech11017_fig2.eps}
  \caption{}
-  \label{fig:ee18btech11017_5}
+  \label{fig:ee18btech11017_fig2}
 \end{figure}
 
 
+\item
+Compare the above plot with bode plot of closed loop transfer function.\\
+\solution
+The following code plots Fig. \ref{fig:ee18btech11017_fig3}
+\begin{lstlisting}
+codes/ee18btech11017_code4.py
+\end{lstlisting}
 
-
-
-
-
-
+\begin{figure}[!h]
+  \includegraphics[width=\columnwidth]{./figs/ee18btech11017_fig3.eps}
+ \caption{}
+  \label{fig:ee18btech11017_fig3}
+\end{figure}
 
 
 

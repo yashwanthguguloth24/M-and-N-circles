@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2020.4.4)  28 APR 2020 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2020.4.4)  1 MAY 2020 09:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1288,6 +1288,16 @@ File: utxsyc.fd 2000/12/15 v3.1
 \openout5 = `ketan_control_manual.toc'.
 
  (./chapters/ee18btech11017_1.tex
+Underfull \hbox (badness 5203) in paragraph at lines 5--9
+\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 M cir-cles are called con-stant
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 5--9
+\OT1/txr/m/n/12 in de-ter-min-ing the closed-loop fre-quency
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 5--9
 
  []
@@ -1348,37 +1358,19 @@ File: ./figs/ee18btech11017_fig1.eps Graphic file (type eps)
 \gnumericColA=\skip78
 \gnumericColB=\skip79
 \gnumericColC=\skip80
-
-Overfull \hbox (8.996pt too wide) in paragraph at lines 197--197
- \OT1/txr/bx/n/12 M(dB)| 
- []
-
-
-Overfull \hbox (2.0pt too wide) in paragraph at lines 228--228
- \OT1/txr/m/n/12 10.48| 
- []
-
-
-Overfull \hbox (2.0pt too wide) in paragraph at lines 237--237
- \OT1/txr/m/n/12 24.42| 
- []
-
-
-Overfull \hbox (2.0pt too wide) in paragraph at lines 246--246
- \OT1/txr/m/n/12 32.37| 
- []
-
 )
+(./tables/ee18btech11017_table2.tex) [2]
 File: ./figs/ee18btech11017_fig2.eps Graphic file (type eps)
  <./figs/ee18btech11017_fig2.eps>
+File: ./figs/ee18btech11017_fig3.eps Graphic file (type eps)
+
+<./figs/ee18btech11017_fig3.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [2]
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
- [3
-
-]
+ [3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 373.
  (./ketan_control_manual.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 373.
@@ -1388,12 +1380,12 @@ Package rerunfilecheck Info: File `ketan_control_manual.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 373.
  ) 
 Here is how much of TeX's memory you used:
- 31649 strings out of 494881
- 676039 string characters out of 6179628
- 894986 words of memory out of 5000000
- 34383 multiletter control sequences out of 15000+600000
+ 31657 strings out of 494881
+ 676286 string characters out of 6179628
+ 899986 words of memory out of 5000000
+ 34387 multiletter control sequences out of 15000+600000
  68203 words of font info for 165 fonts, out of 8000000 for 9000
  39 hyphenation exceptions out of 8191
- 55i,11n,67p,512b,1033s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,67p,512b,1033s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ketan_control_manual.dvi (3 pages, 33132 bytes).
+Output written on ketan_control_manual.dvi (3 pages, 37008 bytes).
