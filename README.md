@@ -7,6 +7,7 @@ M circles are called constant magnitude Loci and N circles are called as constan
 These are helpful in determining the closed-loop frequency response of unity negative feedback systems.
 
 To start with we need to 
+
        -First draw circles of different values of M and N respectively.
        -Then draw nyquist plot of given open loop transfer funcrtion over constant M circles and N circles.
        -Then find the intersection points of M circles and nyquist plot and similarly with N circles.
