@@ -1,6 +1,6 @@
 # M and N circles
 
-This a repo of M and N circles implementation in python from control systems
+This a repo of M and N circles implementation in python from control systems.
 
 
 M circles are called constant magnitude Loci and N circles are called as constant phase angle Loci.
